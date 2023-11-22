@@ -1,0 +1,80 @@
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+p.card-text {
+  text-align: center;
+}
+
+div.btn-group {
+  margin-top: 50px;
+  width: 100px;
+  text-align: center;
+}
+
+img {
+  height: 300px;
+}
+
+div.nav-link {
+  display: flex;
+  margin-left: 200px;
+}
+
+div a.nav-link {
+  margin-left: 50px;
+}
+
+a.navbar-brand {
+  margin-left: 50px;
+}
+
+.btn-outline-success {
+  width: 100px;
+}
+
+
+input {
+  width: 250px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button.btn {
+  background-color: blue;
+  color: white; 
+}
+
+div.card-body {
+  background-color: white;
+  color: black;
+}

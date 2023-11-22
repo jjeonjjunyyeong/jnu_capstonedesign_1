@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <script src="js/color-modes.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.115.4" />
+    <title>Carousel Template · Bootstrap v5.3</title>
+    <script
+      src="https://kit.fontawesome.com/b328387570.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/carousel/"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
+    />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header data-bs-theme="dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark thema">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-plane" style="color: #1e60d2"></i>
+            <span>Travel</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0"></ul>
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <div class="nav-link">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >해외패키지</a
+                >
+                <a class="nav-link active" aria-current="page" href="#"
+                  >테마여행</a
+                >
+                <a class="nav-link active" aria-current="page" href="#"
+                  >개별 여행</a
+                >
+                <a class="nav-link active" aria-current="page" href="#">항공</a>
+                <a class="nav-link active" aria-current="page" href="#">호텔</a>
+                <a
+                  class="nav-link active"
+                  id="login"
+                  aria-current="page"
+                  href="#"
+                  onclick="location.href='login.html'"
+                  >로그인</a
+                >
+              </div>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                검색
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="b">
+        <div class="back">
+          <div class="a">
+            <b class="aaa">여행지</b>
+            <input type="text" />
+            <span class="aa">
+              <b class="aaa">출발 날짜</b>
+              <input
+                type="date"
+                id="date"
+                max="2025-12-31"
+                min="2023-11-15"
+                value="2023-11-15"
+              />
+            </span>
+            <span class="aa">
+              <b class="aaa">도착 날짜</b>
+              <input
+                type="date"
+                id="date"
+                max="2025-12-31"
+                min="2023-11-15"
+                value="2023-11-15"
+              />
+            </span>
+            <button onclick="location.href='2page.html'" class="button">
+              입력
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marketing messaging and featurettes
+  ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="circleimage" src="image/만리장성.jpeg" />
+            <h2 class="fw-normal">만리장성</h2>
+            <p>
+              유네스코의 세계유산목록에 수록되어 있는 만리장성은 해마다 전세계
+              500만 명의 관광객이 방문하고있습니다.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="circleimage" src="image/오사카/오사카.jpeg" />
+            <h2 class="fw-normal">오사카</h2>
+            <p>
+              오사카는 혼슈의 중심 부근에 위치합니다. 현재 인구 약 250만 명,
+              넓이 약 221km²인 도시입니다.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="circleimage" src="image/에펠탑.jpeg" />
+            <h2 class="fw-normal">에펠탑</h2>
+            <p>
+              에펠탑은 그 높이가 324m이며, 이는 81층 높이의 건물과 맞먹는
+              높이이다.
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="#">View details &raquo;</a>
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              만리장성 <span class="text-body-secondary"></span>
+            </h2>
+            <p class="lead">
+              유네스코의 세계유산목록에 수록되어 있는 만리장성은 해마다 전세계
+              500만 명의 관광객이 방문하고있습니다.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img width="100%" height="100%" src="image/만리장성.jpeg" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              오사카 <span class="text-body-secondary"></span>
+            </h2>
+            <p class="lead">
+              오사카는 혼슈의 중심 부근에 위치합니다. 현재 인구 약 250만 명,
+              넓이 약 221km²인 도시입니다.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img width="100%" height="100%" src="image/오사카/오사카.jpeg" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              에펠탑 <span class="text-body-secondary"></span>
+            </h2>
+            <p class="lead">
+              에펠탑은 그 높이가 324m이며, 이는 81층 높이의 건물과 맞먹는
+              높이이다.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img width="100%" height="100%" src="image/에펠탑.jpeg" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+      </footer>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
