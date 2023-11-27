@@ -1,0 +1,11 @@
+경로
+data-travel_mode
+0 : car
+1 : cycle
+2 : walk
+3 : subway
+4 : airplane
+6 : 추천 경로
+-> click() 함수를 이용해 고르고 싶은 이동수단 선택
+-> #section-directions-trip-0 > div.MespJc > div > div.XdKEzd를 통해 경로에 해당하는 시간 및 거리 크롤링 가능
+
