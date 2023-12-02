@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML</title>
+    <style>
+      * {
+        font-size: 16px;
+        font-family: Consolas, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="post" action="http://localhost:5000/test">
+      <p>
+        <label>출발 공항 : <input type="text" name="start_airplane" /></label>
+      </p>
+      <p>
+        <label>도착 공항 : <input type="text" name="end_airplane" /></label>
+      </p>
+      <p>
+        <label>여행지 : <input type="text" name="place" /></label>
+      </p>
+      <p>
+        <label>성인 : <input type="text" name="adult" /></label>
+      </p>
+      <p>
+        <label>유아 : <input type="text" name="Infant" /></label>
+      </p>
+      <p>
+        <label>출발일 : <input type="date" name="start_date" /></label>
+      </p>
+      <p>
+        <label>도착일 : <input type="date" name="end_date" /></label>
+      </p>
+      <p><input type="submit" value="Submit" /></p>
+    </form>
+  </body>
+</html>
